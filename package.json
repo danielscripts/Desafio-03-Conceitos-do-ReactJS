@@ -7,12 +7,14 @@
     "axios-mock-adapter": "^1.18.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
+    "dev": "webpack-dev-server --mode development",
     "eject": "react-scripts eject"
   },
   "browserslist": {
